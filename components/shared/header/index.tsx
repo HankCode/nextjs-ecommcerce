@@ -1,20 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import { APP_NAME } from "@/lib/constants";
-// import Menu from "./menu";
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
-import { Button } from "@/components/ui/button";
-import { MenuIcon, ShoppingCart, UserIcon } from "lucide-react";
-// import { getAllCategories } from "@/lib/actions/product.actions";
-// import Search from "./search";
 import ContentContainer from "@/components/ContentContainer";
+import { Button } from "@/components/ui/button";
+import { ShoppingCart, UserIcon } from "lucide-react";
 
 const Header = async () => {
   // const categories = await getAllCategories();
